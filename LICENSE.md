@@ -1,6 +1,6 @@
 Copyright © 2008 by Yii Software LLC (http://www.yiisoft.com)
 All rights reserved.
-
+Pablo Prueba
 Redistribution and use in source and binary forms, with or without
 modification, are permitted provided that the following conditions
 are met:
