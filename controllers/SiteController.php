@@ -125,4 +125,10 @@ class SiteController extends Controller
     {
         return $this->render('about');
     }
+
+    public function actionPagina1()
+    {
+        return $this->render('pagina1');
+    }
+
 }
