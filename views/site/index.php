@@ -5,9 +5,6 @@
 $this->title = 'Salud y Seguridad Ocupacional';
 ?>
 
-    
-
-
 <div class="site-index">
 
     <div class="jumbotron">
@@ -18,30 +15,34 @@ $this->title = 'Salud y Seguridad Ocupacional';
         <!-- <p><a class="btn btn-lg btn-success" href="http://www.yiiframework.com">Get started with Yii</a></p> -->
         
     </div>
-	
-	<div class="highlights">
-	<section>
-		
-		<div class="content">
-			<header>
-				<a href="#" class="icon fa-vcard-o"><span class="label">Icon</span></a>
-				<h3>Feugiat consequat</h3>
-			</header>
-                    <div class="container">
-  <h2>Image</h2>
-  
+    
+        
+        <div class="highlights">
+            <section>
+                <div class="content">
+                    <header>
+                        <a href="index.php?r=site%2Fabout" class="icon fa-vcard-o"><span class="label">Icon</span></a>
+                        <h3>EMPLEADOS</h3>
+                    </header>
+                    <p>Nunc lacinia ante nunc ac lobortis ipsum. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus.</p>
+                </div>
+            </section>
+        </div> 
+            
+    </div>
+
   <?php 
   use yii\helpers\Html;
   Html::img('@app/images/pic_trulli.jpg', ['alt'=>'some', 'class'=>'thing']);?>
   
-  <p>The .img-circle class shapes the image to a circle (not available in IE8):</p>            
-  <img src="cinqueterre.jpg" class="img-circle" alt="Cinque Terre" width="304" height="236"> 
-</div>
+            
+  
+
                     
                     <p><a class="btn btn-lg btn-success" href="http://www.yiiframework.com">Get started with Yii</a></p>
                     <P><a href="#"><span class="glyphicon glyphicon-envelope"></span></a></P>
                     
-			<p>Nunc lacinia ante nunc ac lobortis ipsum. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus.</p>
+		
 		</div>
 	</section>
 	</div>
